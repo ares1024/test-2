@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Test2">
         <activity
+            android:name=".constants.ConstantsTestActivity"
+            android:exported="false" />
+        <activity
             android:name=".activity.SingleInstanceActivity"
             android:exported="false"
             android:launchMode="singleInstance" />
