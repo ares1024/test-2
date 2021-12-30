@@ -23,7 +23,7 @@ public abstract class BaseActivity extends AppCompatActivity {
 
         setContentView(getLayout());
 
-        Log.i(TAG, "onCreate: " + this.getTaskId());
+        Log.i(TAG, "onCreate: " + this.getTaskId() + "  this = " + this);
 
         mContext = this;
         mOwner = this;

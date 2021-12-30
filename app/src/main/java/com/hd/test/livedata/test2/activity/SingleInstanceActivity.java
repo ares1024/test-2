@@ -12,7 +12,7 @@ public class SingleInstanceActivity extends BaseActivity {
 
     @Override
     public void setData() {
-
+        setKeyListener();
     }
 
     @Override
